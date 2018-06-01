@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  myfirstapplication.web:
+    image: myfirstapplication.web
+    build:
+      context: .
+      dockerfile: MyFirstApplication.Web\Dockerfile
